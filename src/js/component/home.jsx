@@ -10,7 +10,7 @@ import {Cards} from "../Pages/cards.jsx"
 //the function each time for each individual component.
 const Home = () => {
 	return (
-		<div className="text-center">
+		<div class="container">
 			<Navbar/>
 			<Jumbotron/>
 			<Cards/>

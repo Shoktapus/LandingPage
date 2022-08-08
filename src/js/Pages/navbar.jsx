@@ -7,6 +7,7 @@ import React from "react"
 //create your first component
 export const Navbar = () => {
   return (
+    <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -44,6 +45,7 @@ export const Navbar = () => {
         </div>
       </div>
     </nav>
+    </div>
   );
 };
 
