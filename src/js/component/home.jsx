@@ -2,6 +2,7 @@ import React from "react";
 import {Navbar} from "../Pages/navbar.jsx"
 //include images into your bundle
 import {Jumbotron} from "../Pages/jumbotron.jsx"
+import {Cards} from "../Pages/cards.jsx"
 
 //create your first component Component names must be capitalized.
 //Components must be called in the order that you want them to appear on the page.
@@ -12,6 +13,7 @@ const Home = () => {
 		<div className="text-center">
 			<Navbar/>
 			<Jumbotron/>
+			<Cards/>
 		</div>
 	);
 };
